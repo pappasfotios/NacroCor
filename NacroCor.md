@@ -70,7 +70,7 @@ positive proper divisor of 0.5.
 Notice that a different weight is assigned for each step (symmetrical -
 quadratic function of quantile
 $W_t = \frac{1}{2} + (\frac{1}{2} - t)^2$).
-<img src="NacroCor_files/figure-gfm/weight function-1.png" style="display: block; margin: auto;" />
+<img src="NacroCor_files/figure-gfm/weight_function-1.png" style="display: block; margin: auto;" />
 
 ## Algorithm demonstration for quartile step
 
