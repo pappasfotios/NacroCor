@@ -85,4 +85,4 @@ but now the new metric(s) has been calculated.
 
 ## Properties - t sensitivity
 
-<img src="NacroCor_files/figure-gfm/properties-1.png" style="display: block; margin: auto;" />
+<img src="NacroCor_files/figure-gfm/combined_properties-1.png" style="display: block; margin: auto;" />
