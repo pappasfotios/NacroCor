@@ -31,8 +31,8 @@ On the right side of the figure there are venn diagrams visualizing the
 intersection between the top 100 elements set of the base and the
 respective top 100 sets of the three tested scenarios. Notice that the
 “best” scenarios according to correlation coefficients are recovering
-notably less top ranking elements compared to scenario 2 (80% of true
-set recovered).
+notably less top ranking elements compared to scenario 2 (80% of
+base-set recovered).
 
 Correlations and venn diagrams:
 
@@ -51,12 +51,12 @@ For vectors X, Y and q-quantile $Q_t$ (\$ t \$) we define the left-side
 quantile-defined set similarity as:
 
 $$QSS_l(X_t,Y_t)=2\frac{|X_t \cap Y_t|}{|X_t|+|Y_t|}$$ where:
-$`X_t={\{x∈X∣x \le Q_t\}}`$ and \$ Y_t={{y∈Y∣y Q_t}}\`\$
+$`X_t={\{x∈X∣x \le Q_t\}}, Y_t={\{y∈Y∣y \le Q_t\}}`$
 
 Similarly, we define the right-side set similarity as:
 $$QSS_r(X_{1-t},Y_{1-t})=2\frac{|X_{1-t} \cap Y_{1-t}|}{|X_{1-t}|+|Y_{1-t}|}$$
-where: $`X_{1-t}={\{x∈X∣x \ge Q_{1-t}\}}`$ and \$ Y\_{1-t}={{y∈Y∣y
-Q\_{1-t}}}\`\$
+where:
+$`X_{1-t}={\{x∈X∣x \ge Q_{1-t}\}, Y_{1-t}={\{y∈Y∣y \ge Q_{1-t}\}}`$
 
 Finally, we define a n-tile acro-correlation index (I apologize, my
 imagination is not at its prime) for vectors X and Y with quantile step
