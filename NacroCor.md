@@ -51,12 +51,12 @@ For vectors X, Y and q-quantile $Q_t$ (\$ t \$) we define the left-side
 quantile-defined set similarity as:
 
 $$QSS_l(X_t,Y_t)=2\frac{|X_t \cap Y_t|}{|X_t|+|Y_t|}$$ where:
-$`X_t={\{x∈X∣x \le Q_t\}}, Y_t={\{y∈Y∣y \le Q_t\}}`$
+$`X_t={\{x∈X∣x \le Q_t\}}`, ` Y_t={\{y∈Y∣y \le Q_t\}}`$
 
 Similarly, we define the right-side set similarity as:
 $$QSS_r(X_{1-t},Y_{1-t})=2\frac{|X_{1-t} \cap Y_{1-t}|}{|X_{1-t}|+|Y_{1-t}|}$$
 where:
-$`X_{1-t}={\{x∈X∣x \ge Q_{1-t}\}, Y_{1-t}={\{y∈Y∣y \ge Q_{1-t}\}}`$
+$`X_{1-t}={\{x∈X∣x \ge Q_{1-t}\}}`, `Y_{1-t}={\{y∈Y∣y \ge Q_{1-t}\}}`$
 
 Finally, we define a n-tile acro-correlation index (I apologize, my
 imagination is not at its prime) for vectors X and Y with quantile step
