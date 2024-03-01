@@ -62,7 +62,7 @@ Finally, we define a n-tile acro-correlation index (I apologize, my
 imagination is not at its prime) for vectors X and Y with quantile step
 t:
 
-$$Nacroc_t(X,Y)= \left ({\sum_{i=t}^{0.5}{W_i}} \right )^{-1} \left ({\sum_{i = t}^{0.5}{\frac{W_i}{2}(QSS_l(X_i,Y_i) + QSS_r(X_{1-i},Y_{1-i}))}} \right )$$
+$$Nacroc_t(X,Y)= \left ({\sum_{i=t}^{0.5}{W_i}} \right )^{-1} \left ({\sum_{i = t}^{0.5}{\frac{W_i}{2}(QSS_l(X_i,Y_i) + QSS_r(X_i,Y_i))}} \right )$$
 
 Step t can be adjusted accordingly in each scenario. Ideally, t is a
 positive proper divisor of 0.5.
