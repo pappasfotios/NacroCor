@@ -87,4 +87,4 @@ but now the new metric(s) has been calculated.
 
 <img src="NacroCor_files/figure-gfm/properties-1.png" style="display: block; margin: auto;" />
 
-Low t values are probably the way to go in this case. Though, choice of t step should be influenced by the proportion of informative/useful data in the upper and/or lower tails.
+Low t values are probably the way to go in this case. Choice of t step should be influenced by the proportion of informative/useful data in the upper and/or lower tails.
