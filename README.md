@@ -9,7 +9,7 @@ There are cases when meaningful insights on bivariate data can mostly be
 drawn from the upper and/or lower tails. Covariance- and rank- based
 **correlation** metrics might thus not be the best choice for such
 cases. Of course there is the option of **tail-dependence** for
-bivariate copulas, but from an applied data analysis perspective there
+bivariate distributions, but from an applied data analysis perspective there
 is room for metrics that assign different weights for set-similarities
 in respective tiles (buckets) of the individual distributions.
 
