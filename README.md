@@ -64,8 +64,8 @@ t:
 
 $$Nacroc_t(X,Y)= \left ({\sum_{i=t}^{0.5}{W_i}} \right )^{-1} \left ({\sum_{i = t}^{0.5}{\frac{W_i}{2}(QSS_l(X_i,Y_i) + QSS_r(X_i,Y_i))}} \right )$$
 
-Step t can be adjusted accordingly in each scenario. Ideally, t is a
-positive proper divisor of 0.5.
+Step t can be adjusted accordingly in each scenario. Ideally, 100t is a
+positive proper divisor of 50.
 
 Notice that a different weight is assigned for each step (symmetrical -
 quadratic function of quantile
