@@ -47,7 +47,7 @@ as such:
 
 $$SDC(A,B)=2\frac{|A \cap B|}{|A|+|B|}$$
 
-For vectors X, Y and q-quantile $Q_t$ (\$ t \$) we define the left-side
+For vectors X, Y and q-quantile $Q_t$ we define the left-side
 quantile-defined set similarity as:
 
 $$QSS_l(X_t,Y_t)=2\frac{|X_t \cap Y_t|}{|X_t|+|Y_t|}$$ where:
